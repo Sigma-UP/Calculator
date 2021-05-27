@@ -14,6 +14,7 @@ namespace CalculatorMain.Test
             Assert.Equal(Calculator.Division(x, 1), x);
             // Assert.Equal(CalculatorCL.Division(2, 0), ); figure out divide by zero asap
         }
+        [Fact]
         public void Multiplication()
         {
             Assert.Equal(Calculator.Multiplication(x, y), x*y);
@@ -22,14 +23,16 @@ namespace CalculatorMain.Test
             Assert.Equal(Calculator.Multiplication(x, 0.5), x / 2);
             Assert.Equal(Calculator.Multiplication(x, 0), 0);
         }
+        [Fact]
         public void Addition()
         {
             Assert.Equal(Calculator.Addiction(x, y), x + y);
         }
+        [Fact]
         public void Substraction()
         {
             Assert.Equal(Calculator.Substraction(x, y), x - y);
-            Assert.Equal(Calculator.Subscriptions(y, x), y - x);
+            Assert.Equal(Calculator.Substraction(y, x), y - x);
         }
     }
 }
