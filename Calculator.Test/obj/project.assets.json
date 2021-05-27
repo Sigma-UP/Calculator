@@ -1648,6 +1648,16 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Calculator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Calculator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Calculator.dll": {}
+        }
       }
     }
   },
@@ -5611,10 +5621,16 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Calculator/1.0.0": {
+      "type": "project",
+      "path": "../Calculator/Calculator.csproj",
+      "msbuildProject": "../Calculator/Calculator.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Calculator >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.7.1",
       "coverlet.collector >= 1.3.0",
       "xunit >= 2.4.1",
@@ -5627,11 +5643,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\1. WORK\\ANKO\\calculator\\Calculator\\Calculator.Test\\Calculator.Test.csproj",
+      "projectUniqueName": "D:\\1. WORK\\ANKO\\calculator\\Calculator.Test\\Calculator.Test.csproj",
       "projectName": "Calculator.Test",
-      "projectPath": "D:\\1. WORK\\ANKO\\calculator\\Calculator\\Calculator.Test\\Calculator.Test.csproj",
+      "projectPath": "D:\\1. WORK\\ANKO\\calculator\\Calculator.Test\\Calculator.Test.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "D:\\1. WORK\\ANKO\\calculator\\Calculator\\Calculator.Test\\obj\\",
+      "outputPath": "D:\\1. WORK\\ANKO\\calculator\\Calculator.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5647,7 +5663,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\1. WORK\\ANKO\\calculator\\Calculator\\Calculator.csproj": {
+              "projectPath": "D:\\1. WORK\\ANKO\\calculator\\Calculator\\Calculator.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
