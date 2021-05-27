@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\1. WORK\\ANKO\\calculator\\Calculator\\Calculator.Test\\Calculator.Test.csproj": {}
+    "D:\\1. WORK\\ANKO\\calculator\\Calculator.Test\\Calculator.Test.csproj": {}
   },
   "projects": {
-    "D:\\1. WORK\\ANKO\\calculator\\Calculator\\Calculator.Test\\Calculator.Test.csproj": {
+    "D:\\1. WORK\\ANKO\\calculator\\Calculator.Test\\Calculator.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1. WORK\\ANKO\\calculator\\Calculator\\Calculator.Test\\Calculator.Test.csproj",
+        "projectUniqueName": "D:\\1. WORK\\ANKO\\calculator\\Calculator.Test\\Calculator.Test.csproj",
         "projectName": "Calculator.Test",
-        "projectPath": "D:\\1. WORK\\ANKO\\calculator\\Calculator\\Calculator.Test\\Calculator.Test.csproj",
+        "projectPath": "D:\\1. WORK\\ANKO\\calculator\\Calculator.Test\\Calculator.Test.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "D:\\1. WORK\\ANKO\\calculator\\Calculator\\Calculator.Test\\obj\\",
+        "outputPath": "D:\\1. WORK\\ANKO\\calculator\\Calculator.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
