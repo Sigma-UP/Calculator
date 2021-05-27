@@ -1,4 +1,4 @@
-name: Gename: Generate test coverage xml report.
+name: Generate test coverage xml report.
 on:
   push:
     branches:
